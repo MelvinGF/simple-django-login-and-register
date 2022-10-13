@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 test:
-needs: build
+  needs: build
   runs-on: ubuntu-latest

@@ -1,9 +1,0 @@
-name: Build test and Deploy
-stages:
-    - build
-    - test
-    - deploy
-    stages: build
-    stages: test
-    stages: deploy
-    
